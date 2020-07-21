@@ -1,0 +1,174 @@
+.section--consultation
+	background-color #00B2FF
+
+.consultation
+	position relative
+	display flex
+	justify-content center
+	padding 5.875em 0 5.625em
+
+	&__content
+		width 50%
+		position relative
+		z-index 2
+		display none
+
+		+xl-block()
+			display block
+
+	&__forms
+		width calc(100% - 0.6875em)
+
+		+md-block()
+			width calc(80% - 0.6875em)
+		
+		+lg-block()
+			width calc(70% - 0.6875em)
+
+		+xl-block()
+			width calc(50% - 0.6875em)
+
+	&__form
+		display block
+
+		+sm-block()
+			
+			display flex
+			flex-wrap: wrap
+			justify-content space-between
+
+	&__form-name
+		width 100%
+		height 3.125em
+		background-color: #19baff
+		border: none
+		color: #fff
+		outline: none
+		font-size 1rem
+		line-height 1.4
+		font-family 'PT Mono'
+		padding-left 1.1em
+
+		+md-block()
+			width 16.875em
+
+	&__form-phone
+		width 100%
+		height 3.125em
+		background-color: #19baff
+		border: none
+		outline: none
+		color: #fff
+		font-size 1rem
+		line-height 1.4
+		font-family 'PT Mono'
+		padding-left 1.1em
+		margin-top 1.875em
+
+		+md-block()
+			width 16.875em
+			margin-top 0
+
+	&__form-quetion
+		width 100%
+		height 9.625em
+		resize: none
+		margin-top 2.5em
+		background-color: #19baff
+		border: none
+		outline: none
+		color: #fff
+		font-size 1rem
+		line-height 1.4
+		font-family 'PT Mono'
+		padding 0.8em 0 0 1.1em
+
+	&__form-img
+		position absolute	
+
+	&__title
+		font-size 2.25rem
+		line-height 1.4
+		font-family 'Roboto Condensed'
+		color #ffffff
+		font-weight normal
+		padding-bottom 0.195em
+
+	&__text
+		font-size 1rem
+		line-height 1.4
+		color: #ffffff
+		font-family 'PT Mono'
+		padding-bottom 3.125em
+		margin 0
+
+	&__form input::placeholder,
+	&__form textarea::placeholder
+		color #fff
+
+	&__form-img
+		position absolute
+
+	&__form-img-small
+		right -30%
+		bottom: 52%
+		display none
+
+		+xl-block()
+			display block
+
+	&__form-img-big
+		right -31%
+		top 45%
+		display none
+
+		+xl-block()
+			display block
+
+	&__form-btn
+		width 100%
+		height 2.8125em
+		background-color: transparent
+		border: 1px solid #ffffff
+		border-radius: 5px
+		font-family 'Roboto Condensed'
+		font-weight bold
+		font-size 0.875rem
+		line-height 1.2
+		text-transform uppercase
+		letter-spacing: 0.05em
+		color: #fff
+		margin-top 2.6875em
+		cursor pointer
+		transition: .3s
+		&:hover
+			background-color: #ffffff
+			color: #00b2ff
+
+		+md-block()
+			width 16.875em		
+
+	&__form-checkbox
+		width 16.375em
+		display flex
+		padding-top 2.5em
+
+		+sm-block()
+			margin auto
+
+	&__checkbox-label
+		font-size 0.875rem
+		font-family 'PT Mono'
+		line-height 1.2
+		color #fff
+		padding-left 1.15em
+
+	&__consult-bg-img
+		width 100%
+		position absolute
+		left -10.5em
+		z-index -1
+
+	&__consult-img
+		margin-left -4.5em
+		padding-top 3.5625em
