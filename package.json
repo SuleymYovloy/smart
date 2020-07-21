@@ -22,7 +22,7 @@
         "build:gzip": "gulp gzip --production",
         "precommit": "lint-staged",
         "prettify": "prettier --write \"**/*.{js,json,jsx,ts,css,less,scss,md,markdown}\"",
-            "prettify:stylus": "stylus-supremacy format ./src/**/**/**/*.styl ./src/**/**/*.styl ./src/**/*.styl --replace --options ./stylus-supremacy.config.json"
+        "prettify:stylus": "stylus-supremacy format ./src/**/**/**/*.styl ./src/**/**/*.styl ./src/**/*.styl --replace --options ./stylus-supremacy.config.json"
     },
     "lint-staged": {
         "*.{js,json,jsx,ts,tsx,css,less,scss,md,markdown}": [
@@ -72,8 +72,8 @@
         "lint-staged": "^10.0.4",
         "prettier": "1.19.1",
         "require-dir": "^1.2.0",
-        "stylus-supremacy": "^2.12.3",
         "stylint": "^2.0.0",
+        "stylus-supremacy": "^2.12.3",
         "webpack": "~4.35.0",
         "webpack-stream": "^5.2.1",
         "yargs": "~13.2.4"
@@ -81,6 +81,7 @@
     "dependencies": {
         "animate.css": "^3.7.2",
         "bootstrap-4-stylus": "^1.0.7",
+        "magnific-popup": "^1.1.0",
         "normalize.css": "^8.0.1",
         "smart-grid": "^2.1.2"
     }
